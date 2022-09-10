@@ -1,0 +1,53 @@
+
+/*
+*** imagem do fundo com imagem ***
+*/
+
+#home {
+	background: url(../imagens/doorpage-cyber-security.jpg);  
+	color: #fff;
+}
+
+#habilidades {
+	color: #7ED4A5;
+	align-items: center;
+}
+
+
+#direitos-autorais {
+
+	background: rgb(0,36,27);
+background: linear-gradient(90deg, rgba(0,36,27,1) 28%, rgba(12,12,105,1) 55%, rgba(0,155,255,1) 100%);
+  font-size: 30px;
+  height: 60px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+	background: url(../imagens/doorpage-cyber-security.jpg);
+}
+
+/*
+*** formatacao dos links ***
+*/
+header p a {  
+	margin: 5px 15px;
+	color: #fff ;
+	text-decoration: none;
+}
+
+header p a:hover {
+	color: #73C7D0;
+	background: #D5F1D4;
+	text-decoration: none;
+}
+
+h1{
+	font-size: 50px;
+  background: -webkit-radial-gradient(#00241b, #0c0c69, #009bff, #3cc782, #3df413);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  
+}

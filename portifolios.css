@@ -1,0 +1,13 @@
+body {
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.053658963585434205) 0%, rgba(4,114,190,0.36738445378151263) 58%, rgba(215,231,235,1) 100%);
+}
+
+img {
+	float: left;
+	padding: 3px;
+	width: 300px;
+	margin-top: 3px;
+	}
+
+

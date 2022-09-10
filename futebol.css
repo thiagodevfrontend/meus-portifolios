@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+font-family: "trebuchet MS", Helvetica, sans-serif;
+background: url(../imagens/estadio-removebg-preview.png) repeat-x;
+}
+
+#container {
+	width: 750px;
+	margin: 0 auto;
+}
+
+#topo {
+height: 100px;
+padding: 23px;
+}
+
+.logo {
+width: 150px;
+height: 109px;
+background: url(../imagens/5623515.jpg) no-repeat center;
+}
+
+/*barra de navegacao */
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#topo ul {
+margin-top: 20px;
+	background: #3EABBA;
+	float: left;
+}
+
+#topo ul li {
+	float: left;
+}
+
+#topo ul li a {
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+}
+
+#topo ul a:hover {
+
+	text-decoration: none;
+	color: #C3EBE2;
+}
+
+body.home #navegacao a#home {
+
+	color: #fff;
+	background: #1B4250;
+	cursor: text;
+}
+
+/* configurando o layout de tres colunas da pagina inicial*/
+#conteudo {
+	margin-top: 320px;
+}
+
+#primario {
+
+width: 270px;
+float: left;
+margin: 0 0 20px 195px;
+}
+
+
+
+#secundario {
+
+width: 270px;
+float: left;
+margin: 0 0 20px 15px;
+}
+
+#lateral {
+
+width: 180px;
+float: left;
+margin: 0 0 20px -750px;
+}
+
+/*config caixa*/
+.caixa {
+	background: #f3f3f3;
+	margin: 10px 0;
+	padding: 5px 0 5px 0;
+}
+
+/*formatando menus laterais
+*/
+#lateral ul a {
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+/*formatando formularios
+*/
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	padding: 5px;
+	width: 125px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+
+input.submit {
+	width: 80px;
+	color: #fff;
+	background-color: #1B4250;
+	border: 2px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+color: #a1a1a1;
+padding-left: 20px;
+}
+
+.caixa-conteudo {
+	background: #fff;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+h2 {
+	font-size: 1em;
+	background: #3EABBA;
+	color: #fff;
+	padding: 5px;
+}
+
+/* configurando o rodape*/
+#container-rodape {
+	background: #3EABBA;
+	padding: 20px;
+}
+
+#rodape a{
+
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 14px;
+}
+
+
+/*
+Formatando h3
+*/
+ h3 {
+
+ 	padding: 3px;
+ 	font-size: 0.8em;
+ 	display: inline;
+ 	text-transform: uppercase;
+ }
+
+ h3 {
+
+ 	background: #3EABBA;
+ 	color: #fff;
+
+ }
